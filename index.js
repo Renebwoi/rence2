@@ -21,6 +21,8 @@ const app = express();
 app.use(express.json());
 app.use('/api', routes)
 
-app.listen(3002, () => {
-    console.log(`Server Started at ${3000}`)
+var x = 5000
+
+app.listen(x, () => {
+    console.log(`Server Started at ${x}`)
 })
